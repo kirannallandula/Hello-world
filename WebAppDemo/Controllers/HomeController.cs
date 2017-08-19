@@ -13,6 +13,12 @@ namespace WebAppDemo.Controllers
             return View();
         }
 
+        
+        public ActionResult Change()
+        {
+            ViewBag.msg ="demo";
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
